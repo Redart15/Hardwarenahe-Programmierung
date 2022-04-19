@@ -1,8 +1,6 @@
 
 ## HWP - 2020/2021
 
-----
-
 Dies ist eine Sammlung aus Modul Hardwarenahenprogrammierung aus den letzten zwei Semester.<br>
 Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den letzten Semestern.<br>
 
@@ -16,6 +14,8 @@ Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den le
 
 Sollte etwas Fehlen, etwas hinzugefügt oder man hilfe mit HWP brauche kann man mich über Discord erreichen:<br>
 Redart15 | Artem#9910
+
+----
 
 **Inhalt in Detail**
 
