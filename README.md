@@ -15,6 +15,27 @@ Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den le
 Sollte etwas Fehlen, etwas hinzugefügt oder man hilfe mit HWP brauche kann man mich über Discord erreichen:<br>
 Redart15 | Artem#9910
 
+
+
+1. Dog
+
+    1. German Shepherd
+
+    2. Belgian Shepherd
+
+        1. Malinois
+
+        2. Groenendael
+
+        3. Tervuren
+
+2. Cat
+
+    1. Siberian
+
+    2. Siamese
+
+
 ### Inhaltsverzeichniss:
 1. Cheat Sheets
    1 GBD Cheat Sheet
