@@ -27,9 +27,6 @@ Redart15 | Artem#9910
     6. Unitest & Co.
 2. Extras
     1. Ergänzungsliteratur
-        1. GNU Manual
-        2. GBD Tutorial
-        3. The C Programming Language
     2. Manual
 3. Letztes Semester Vorlesung
     1. HWP 2020
