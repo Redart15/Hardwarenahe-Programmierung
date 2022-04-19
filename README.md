@@ -16,12 +16,12 @@ Sollte etwas Fehlen, etwas hinzugefügt oder man hilfe mit HWP brauche kann man 
 Redart15 | Artem#9910
 
 ### Inhaltsverzeichniss:
-1. Cheat Sheets
-  1.1 GBD Cheat Sheet
-  1.2 Struct.Enum.Filepointer
-  1.3 Terminal Nav.
-  1.4 Compiler
-  1.5 Printf
-  1.6 Unitest & Co.
-2. Extras
+-1. Cheat Sheets
+  -1.1 GBD Cheat Sheet
+  -1.2 Struct.Enum.Filepointer
+  -1.3 Terminal Nav.
+  -1.4 Compiler
+  -1.5 Printf
+  -1.6 Unitest & Co.
+-2. Extras
 
