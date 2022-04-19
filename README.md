@@ -17,8 +17,10 @@ Redart15 | Artem#9910
 
 ----
 
-**Inhalt in Detail**
+## On this page
 {:.no_toc}
 
 - TOC
 {:toc}
+
+----
