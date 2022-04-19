@@ -80,4 +80,17 @@ Im Grunde sind hier viele Datei einfach Wiederhollung. Wenn man auslässt ist ni
 ----
 
 ### 3.Letzte Semester
-HWP in 2021 fand innerhalb von 3 Woche statt. Die ersten zwei Wochen erarbeitet man sich das Material und bearbeitet die Übungen 1-6. In der dritten Woche findet das Projekt statt. Blatt 6 hat sich in 
+Kurz wie das Praktikum in 2021 ablief:
+Man musste einen Test bestehen um an dem Praktikum teilnehmen zu können. Der Test bestand aus basis Kenntnissen der Programmierung. Alles in diesem Test wird als gang und gebe angesehen.
+
+Zuerst fand alles online Statt mit einem Lernmodule im Illias. Den Stoff musste man sich selber aneignen. Das Lernmodul verwies auf Kapitel im Buch und ging die Konzepte durch. Zu den Konzepten gab es sowohl Übungen wie auch Videos von der Janine. 
+Im Verlauf des Praktikum musste man 11/15 Aufgabe bestanden haben um am Projekt teilnehmen zu können. Darüberhinnaus musste man in Ilias 
+
+Alle paar Tage erhielt man ein Arbeitsblatt.<br>
+
+Das Arbeitsblatt war eine Zip welche das Aufgabenblatt, die Test und Vorlagen enthielt. Die Test musste man lokal auf den Computer ausführen. Die Test Datei sind dabei Shell-Scripts. Die Test müssen zur 100% durchlaufen damit die Aufgabe als bestanden gilt. 
+
+
+HWP in 2021 fand innerhalb von 3 Woche statt. Die ersten zwei Wochen erarbeitet man sich das Material und bearbeitet die Übungen 1-6. In der dritten Woche findet das Projekt statt. Blatt 6 hat sich mit dem Projekt überschnitten. 
+
+
