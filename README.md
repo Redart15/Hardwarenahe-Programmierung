@@ -41,12 +41,16 @@ Redart15 | Artem#9910
 In der vierten Woche wurde sich mit Debugging von C beschäftigt, dazu wurde eine Einführung in GDB gemacht.<br>
 Im Grunde reicht es sich nur etwas sich damit auszukennen um das Blatt dieser Woche bearbeiten zu können
 
+
 #### Struct/Enum/Filepointer
 Im fünten und sechsten Blatt werden diese Konzepte erläuter und erklärt.<br>
 Die sechste Übung in 2021 hat sich mit dem Projekt überschnitten.<br>
+
 **SKIPPT DIE ÜBUNG NICHT**
+
 Dieser Teil der Vorlesung ist wichtig und wird von Anfang an im Projekt benötigt. Der Cheat-Sheet dient dazu dar<br>
 schnell auf den Stand zu kommen.
+
 
 **In C gibt es keine Objekte.**<br>
 Wenn man ein Objekt haben möchte wird man zwagsläufig auf ein Struct zurückgreifen.<br>
@@ -56,8 +60,10 @@ jedoch kann es sein das man es im Projekt benutzt.
 
 Filepointer, ohne jetzt groß zu erklären diese Werden benutzt um eine Datei auszulesen.
 
+
 #### Terminal Navigation
 Nochmal alles was man benötigen könnte für das Bedienen des Terminals.
+
 
 #### Compilerfehler
 Comipilerfehler sind tückisch in C. Hier findet man eine zusammenfassung der typische Fehler.<br>
