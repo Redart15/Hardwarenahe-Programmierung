@@ -19,11 +19,11 @@ Redart15 | Artem#9910
 
 ### Inhaltsverzeichniss:
 1. Cheat Sheets
-     1 GBD Cheat Sheet
-     2 Struct.Enum.Filepointer
-     3 Terminal Nav.
-     4 Compiler
-      5 Printf
-     6 Unitest & Co.
+    1. GBD Cheat Sheet
+    2. Struct.Enum.Filepointer
+    3. Terminal Nav.
+    4. Compiler
+    5. Printf
+    6. Unitest & Co.
 2. Extras
 
