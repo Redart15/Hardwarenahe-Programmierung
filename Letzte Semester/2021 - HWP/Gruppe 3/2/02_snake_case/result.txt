@@ -1,0 +1,4 @@
+Geben Sie einen String ein:
+
+Zu snake_case konvertiert:
+ok hier kommt was

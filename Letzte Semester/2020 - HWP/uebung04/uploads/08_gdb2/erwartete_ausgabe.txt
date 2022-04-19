@@ -1,0 +1,13 @@
+Anzahl: 12
+Wert: 1
+Wert: 3
+Wert: 7
+Wert: 3
+Wert: 7
+Wert: 3
+Wert: 7
+Wert: 3
+Wert: 7
+Wert: 3
+Wert: 7
+Wert: 3

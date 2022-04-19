@@ -1,0 +1,49 @@
+0
+GGGGGGGG
+GGG#GGGG
+GGGGGGGG
+GS#GGGZG
+########
+1
+GGGGGGGG
+GGG#GGGG
+GSGGGGGG
+G #GGGZG
+########
+2
+GGGGGGGG
+GGS#GGGG
+G  GGGGG
+G #GGGZG
+########
+3
+GGSGGGGG
+GG #GGGG
+G  GGGGG
+G #GGGZG
+########
+4
+GG SGGGG
+GG #GGGG
+G  GGGGG
+G #GGGZG
+########
+5
+GG   GGG
+GG #SGGG
+G  GGGGG
+G #GGGZG
+########
+6
+GG   GGG
+GG #  GG
+G  GGSGG
+G #GGGZG
+########
+7
+GG   GGG
+GG #  GG
+G  GG  G
+G #GGGSG
+########
+Gewonnen! Punktzahl: 10

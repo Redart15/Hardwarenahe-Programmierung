@@ -1,0 +1,5 @@
+OK: Datei "ausgaben/matrikelnummer_groesser_2999.txt" stimmt mit erwarteter Ausgabe überein.
+OK: Datei "ausgaben/semester_kleiner_5.txt" stimmt mit erwarteter Ausgabe überein.
+OK: Datei "ausgaben/informatikstudenten.txt" stimmt mit erwarteter Ausgabe überein.
+OK: Datei "ausgaben/informatikstudenten_datei.txt" stimmt mit erwarteter Ausgabe überein.
+OK: Datei "ausgaben/matrikelnummer_groesser_5000_mathematikstudenten.txt" stimmt mit erwarteter Ausgabe überein.

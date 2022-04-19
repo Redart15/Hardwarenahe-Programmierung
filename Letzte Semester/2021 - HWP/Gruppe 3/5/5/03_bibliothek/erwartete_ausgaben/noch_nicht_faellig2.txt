@@ -1,0 +1,36 @@
+2022-01-20, Das hohe Fenster, Krimi
+2022-04-09, Solaris, Sci-Fi
+2022-10-06, Herr der Ringe - Die Gefaehrten, Fantasy
+2022-11-06, Verblendung, Krimi
+2022-10-28, Foundation, Sci-Fi
+2022-07-27, Planet der Affen, Sci-Fi
+2021-08-24, Der Pate, Krimi
+2021-09-09, Harry Potter und der Stein der Weisen, Fantasy
+2022-06-20, Foundation, Sci-Fi
+2022-10-31, Harry Potter und die Kammer des Schreckens, Fantasy
+2022-12-14, Tod durch Powerpoint, Krimi
+2021-12-11, Harry Potter und der Stein der Weisen, Fantasy
+2021-11-15, C von Kopf bis Fuss, Sachbuch
+2021-07-28, Stricken mit Hunde-Haaren, Sachbuch
+2021-08-03, Solaris, Sci-Fi
+2021-08-17, Stricken mit Hunde-Haaren, Sachbuch
+2021-08-11, Schoene neue Welt, Sci-Fi
+2021-07-07, Der Schakal, Krimi
+2021-04-04, Harry Potter und die Kammer des Schreckens, Fantasy
+2022-12-06, Verblendung, Krimi
+2022-11-03, Der Pate, Krimi
+2022-02-28, Planet der Affen, Sci-Fi
+2022-02-28, Harry Potter und die Kammer des Schreckens, Fantasy
+2022-09-11, Dune - Der Wuestenplanet, Sci-Fi
+2021-12-31, C von Kopf bis Fuss, Sachbuch
+2022-06-28, Harry Potter und der Stein der Weisen, Fantasy
+2022-10-10, Der Hund der Baskervilles, Krimi
+2021-05-11, Watchmen, Sci-Fi
+2022-12-03, Watchmen, Sci-Fi
+2022-06-13, Harry Potter und die Kammer des Schreckens, Fantasy
+2021-08-24, Herr der Ringe - Die Gefaehrten, Fantasy
+2022-03-28, Der Pate, Krimi
+2022-06-10, Stricken mit Hunde-Haaren, Sachbuch
+2021-09-30, C von Kopf bis Fuss, Sachbuch
+2022-06-04, Stricken mit Hunde-Haaren, Sachbuch
+2022-07-02, Die drei Sonnen, Sci-Fi

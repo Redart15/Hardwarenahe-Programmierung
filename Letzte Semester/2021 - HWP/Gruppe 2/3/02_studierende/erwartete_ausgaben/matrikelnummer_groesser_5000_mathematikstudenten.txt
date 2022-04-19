@@ -1,0 +1,4 @@
+7469 19 Mathematik nein
+9463 5 Mathematik ja
+6663 1 Mathematik nein
+9756 9 Mathematik ja

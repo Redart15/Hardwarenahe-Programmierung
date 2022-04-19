@@ -1,0 +1,10 @@
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99 bibliothek.c ../02_datum/datum.c -o bibliothek
+mkdir -p ausgaben
+./bibliothek eingaben/eingabe1.txt ausgaben/faellig1.txt ausgaben/noch_nicht_faellig1.txt 2021 05 06
+./bibliothek eingaben/eingabe2.txt ausgaben/faellig2.txt ausgaben/noch_nicht_faellig2.txt 2021 04 04
+./ausgabe_pruefen.sh
+OK: Die Datei bibliothek.h enthält das Wort "enum".
+OK: ausgaben/faellig1.txt entspricht erwartete_ausgaben/faellig1.txt.
+OK: ausgaben/noch_nicht_faellig1.txt entspricht erwartete_ausgaben/noch_nicht_faellig1.txt.
+OK: ausgaben/faellig2.txt entspricht erwartete_ausgaben/faellig2.txt.
+OK: ausgaben/noch_nicht_faellig2.txt entspricht erwartete_ausgaben/noch_nicht_faellig2.txt.

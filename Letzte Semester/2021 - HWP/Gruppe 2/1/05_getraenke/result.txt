@@ -1,0 +1,8 @@
+ ______ 
+/      \
+|      |
+| Dose |
+|      |
+\______/
+
+Noch 49 Dosen im Automaten.

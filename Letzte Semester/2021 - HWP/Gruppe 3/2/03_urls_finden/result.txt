@@ -1,0 +1,40 @@
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99 `pkg-config --cflags check` urls_finden.c urls_finden_tests.c -o tests `pkg-config --libs check`
+./tests
+Running suite(s): Core
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452910	http:          (nil)	www: 0x7ffcb9452918
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452932	http:          (nil)	www: 0x7ffcb945293a
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452910	http: 0x7ffcb9452938	www: 0x7ffcb9452918
+0	https:          (nil)	http: 0x7ffcb9452938	www: 0x7ffcb9452928
+0	https:          (nil)	http: 0x7ffcb9452938	www:          (nil)
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https:          (nil)	http:          (nil)	www: 0x7ffcb9452911
+0	https:          (nil)	http:          (nil)	www: 0x7ffcb9452921
+0	https:          (nil)	http:          (nil)	www: 0x7ffcb9452931
+0	https:          (nil)	http:          (nil)	www: 0x7ffcb9452941
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452910	http:          (nil)	www:          (nil)
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https:          (nil)	http:          (nil)	www:          (nil)
+1	https:          (nil)	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452921	http:          (nil)	www: 0x7ffcb9452929
+0	https: 0x7ffcb9452961	http:          (nil)	www: 0x7ffcb9452a3c
+0	https: 0x7ffcb94529f3	http:          (nil)	www: 0x7ffcb9452a3c
+0	https: 0x7ffcb9452a34	http:          (nil)	www: 0x7ffcb9452a3c
+0	https: 0x7ffcb9452ab1	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452aed	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452b79	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452bc0	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452bf6	http:          (nil)	www:          (nil)
+0	https: 0x7ffcb9452c49	http:          (nil)	www:          (nil)
+100%: Checks: 9, Failures: 0, Errors: 0

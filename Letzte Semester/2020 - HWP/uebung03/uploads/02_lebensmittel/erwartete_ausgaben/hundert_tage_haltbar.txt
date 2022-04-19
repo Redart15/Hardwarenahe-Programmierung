@@ -1,0 +1,6 @@
+Wasser 8 Getränk 400
+Eis 4 Süßigkeit 200
+Salz 8 Gewürz 9999999
+Gummibärchen 9 Süßigkeit 1350
+Tee 10 Getränk 500
+Kirscheis 1 Süßigkeit 100

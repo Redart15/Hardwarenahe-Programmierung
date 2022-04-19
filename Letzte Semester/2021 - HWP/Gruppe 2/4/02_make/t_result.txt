@@ -1,0 +1,39 @@
+make[1]: Entering directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+OK: Datei "zoo.o" wurde erstellt.
+OK: Datei "giraffe.o" wurde erstellt.
+OK: Datei "elefant.o" wurde erstellt.
+OK: Datei "main.o" wurde erstellt.
+OK: Datei "main" wurde erstellt.
+OK: Die Datei ausgabe.txt wurde erzeugt.
+OK: Die Ausgabe stimmt mit der erwarteten Ausgabe überein.
+INFO: "make all" wird nochmals ausgeführt.
+make[1]: Entering directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+OK: Datei "zoo.o" hat sich nicht geändert.
+OK: Datei "giraffe.o" hat sich nicht geändert.
+OK: Datei "elefant.o" hat sich nicht geändert.
+OK: Datei "main.o" hat sich nicht geändert.
+OK: Datei "main" hat sich nicht geändert.
+INFO: Datei "zoo.h" wird verändert und "make all" wird nochmals ausgeführt.
+make[1]: Entering directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99  -c main.c
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99 -c zoo.c
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99  *o -o main
+make[1]: Leaving directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+OK: Datei "elefant.o" hat sich nicht geändert.
+OK: Datei "giraffe.o" hat sich nicht geändert.
+OK: Datei "zoo.o" hat sich geändert.
+OK: Datei "main.o" hat sich geändert.
+OK: Datei "main" hat sich geändert.
+INFO: "make clean" wird ausgeführt.
+make[1]: Entering directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+rm -f *.o.txt *.o *main.txt main
+make[1]: Leaving directory '/home/student/Schreibtisch/workspace/Gruppe 2/uebung4/02_make'
+OK: Datei "zoo.o" wurde durch "make clean" entfernt.
+OK: Datei "giraffe.o" wurde durch "make clean" entfernt.
+OK: Datei "elefant.o" wurde durch "make clean" entfernt.
+OK: Datei "main.o" wurde durch "make clean" entfernt.
+OK: Datei "main" wurde durch "make clean" entfernt.

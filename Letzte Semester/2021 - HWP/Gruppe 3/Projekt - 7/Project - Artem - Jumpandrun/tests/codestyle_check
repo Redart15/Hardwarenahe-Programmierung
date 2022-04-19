@@ -1,0 +1,752 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <dirent.h>
+#include <limits.h>
+#include <assert.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+#define TAB_WIDTH 4
+#define MAX_LINE_LENGTH 100
+#define MAX_LINES_PER_FUNCTION 60
+#define NOT_FOUND ((size_t)-1)
+#define CHAR_DEL ((char)0x7F)
+#define MY_PATH_MAX 4096
+
+int skip_filename(const char *name){
+    // Skip hidden files
+    return name[0] == '.';
+}
+
+int is_allowed_char(char c){
+    return (' ' <= c && c <= '~') || c ==  '\t' || c == '\r' || c == '\n';
+}
+
+int is_whitespace(char c){
+    switch (c){
+        case ' ':
+        case '\r':
+        case '\n':
+        case '\t':
+            return 1;
+    }
+    return 0;
+}
+
+int is_dir(const char *path){
+    struct stat s;
+    stat(path, &s);
+    return S_ISDIR(s.st_mode);
+}
+
+typedef struct {
+    char c;
+    size_t offset;
+} CharWithOffset;
+
+typedef struct {
+    CharWithOffset *chars;
+    size_t length;
+} String;
+
+void string_init(String *string, const char *text, size_t length){
+    string->length = length;
+    string->chars = malloc(length * sizeof(CharWithOffset));
+
+    for (size_t i = 0; i < length; i++){
+        if (text){
+            string->chars[i].c = text[i];
+        }
+        string->chars[i].offset = i;
+    }
+}
+
+void string_new(String *string, const char *text){
+    string_init(string, text, strlen(text));
+}
+
+void string_free(String *string){
+    free(string->chars);
+}
+
+CharWithOffset* string_ptr(String *string, size_t index){
+    assert(index < string->length);
+
+    return string->chars + index;
+}
+
+#define string_at(string, i) (string_ptr(string, i)->c)
+
+char* string_to_cstring(String *string){
+    char *result = malloc(string->length + 1);
+    for (size_t i = 0; i < string->length; i++){
+        result[i] = string_at(string, i);
+    }
+    result[string->length] = '\0';
+    return result;
+}
+
+size_t string_find_char(String *string, char c, size_t start){
+    for (size_t i = start; i < string->length; i++){
+        if (string_at(string, i) == c){
+            return i;
+        }
+    }
+    return NOT_FOUND;
+}
+
+void string_remove_char(String *string, char char_to_delete){
+    size_t length = 0;
+    for (size_t i = 0; i < string->length; i++){
+        if (string_at(string, i) != char_to_delete){
+            string->chars[length++] = string->chars[i];
+        }
+    }
+    string->length = length;
+}
+
+int string_eq_at(String *string, const char *text, size_t offset){
+    size_t text_length = strlen(text);
+
+    if (text_length + offset > string->length) return 0;
+
+    for (size_t i = 0; i < text_length; i++){
+        if (string_at(string, offset + i) != text[i]){
+            return 0;
+        }
+    }
+
+    return 1;
+}
+
+int string_contains(String *string, const char *text, size_t start, size_t end){
+    size_t text_length = strlen(text);
+
+    if (end > string->length) end = string->length;
+
+    for (size_t i = start; i < end; i++){
+        if (i + text_length > end) break;
+
+        if (string_eq_at(string, text, i)) return 1;
+    }
+
+    return 0;
+}
+
+int string_eq(String *string, const char *text){
+    return strlen(text) == string->length && string_eq_at(string, text, 0);
+}
+
+void string_replace(String *string, const char *old, const char *newer){
+    size_t old_length = strlen(old);
+    size_t newer_length = strlen(newer);
+    size_t length = 0;
+    for (size_t i = 0; i < string->length;){
+        if (string_eq_at(string, old, i)){
+            i += old_length;
+            length += newer_length;
+        }else{
+            length++;
+            i++;
+        }
+    }
+
+    String new_string;
+    string_init(&new_string, NULL, length);
+    size_t j = 0;
+    for (size_t i = 0; i < string->length;){
+        if (string_eq_at(string, old, i)){
+            size_t offset = string->chars[i].offset;
+            i += old_length;
+            for (const char *c = newer; *c; c++){
+                new_string.chars[j++] = (CharWithOffset){*c, offset};
+            }
+        }else{
+            new_string.chars[j++] = string->chars[i++];
+        }
+    }
+
+    string_free(string);
+    *string = new_string;
+}
+
+void string_mark_space_before_curly_open(String *string){
+    for (size_t i = 0; i < string->length; i++){
+        size_t start = i;
+        while (i < string->length && is_whitespace(string_at(string, i))) i++;
+
+        if (i >= string->length) break;
+
+        if (string_at(string, i) == '{'){
+            for (size_t k = start; k < i; k++){
+                string_at(string, k) = CHAR_DEL;
+            }
+        }
+    }
+}
+
+void string_print_sub(String *string, size_t start, size_t end){
+    if (end > string->length) end = string->length;
+
+    for (size_t i = start; i < end; i++){
+        putchar(string_at(string, i));
+    }
+    putchar('\n');
+}
+
+char* read_text(const char *path, String *string){
+    int fd = open(path, O_RDONLY);
+
+    if (fd == -1) return NULL;
+
+    struct stat s;
+    if (-1 == fstat(fd, &s)){
+        close(fd);
+        return NULL;
+    }
+
+    char *text = malloc(s.st_size);
+
+    if (!text || s.st_size != read(fd, text, s.st_size)){
+        close(fd);
+        return NULL;
+    }
+
+    string_init(string, text, s.st_size);
+
+    close(fd);
+
+    return text;
+}
+
+typedef struct {
+    char *data;
+    size_t size;
+    size_t capacity;
+} Buffer;
+
+void buffer_init(Buffer *buffer){
+    buffer->data = NULL;
+    buffer->size = 0;
+    buffer->capacity = 0;
+}
+
+void buffer_reserve(Buffer *buffer, size_t capacity){
+    if (buffer->capacity >= capacity) return;
+
+    size_t num_bytes = sizeof(char) * capacity;
+
+    void *data = realloc(buffer->data, num_bytes);
+
+    if (!data){
+        fprintf(stderr, "ERROR: realloc failed with %zu bytes\n", num_bytes);
+        exit(EXIT_FAILURE);
+    }
+
+    buffer->data = data;
+    buffer->capacity = capacity;
+}
+
+void buffer_push(Buffer *buffer, char value){
+    buffer_reserve(buffer, buffer->size + 1);
+
+    buffer->data[buffer->size++] = value;
+}
+
+void buffer_free(Buffer *buffer){
+    free(buffer->data);
+}
+
+typedef struct {
+    char *code;
+    const char *path;
+    String *string;
+    size_t offset;
+    char msg[4096];
+    Buffer buffer[1];
+
+    int seen_non_whitespace;
+    size_t start;
+    size_t depth;
+    size_t line_length;
+    size_t number_of_lines;
+    size_t num_semicolons;
+    size_t line_start;
+    int violates_code_style;
+} Context;
+
+int mark_strings_and_comments(Context *context){
+    String *string = context->string;
+    size_t n = string->length;
+    for (size_t i = 0; i < n;){
+        char c = string_at(string, i);
+
+        // mark line comment
+        if (string_eq_at(string, "//", i)){
+            for (; i < n && string_at(string, i) != '\n'; i++){
+                string_at(string, i) = CHAR_DEL;
+            }
+            continue;
+        }
+
+        // Mark block comment
+        if (string_eq_at(string, "/*", i)){
+            for (; i < n && !string_eq_at(string, "*/", i); i++){
+                string_at(string, i) = CHAR_DEL;
+            }
+            if (!string_eq_at(string, "*/", i)){
+                fprintf(stderr,
+                    "FEHLER: Blockkommentar in Datei %s wurde nicht beendet.\n",
+                    context->path);
+                return EXIT_FAILURE;
+            }
+            string_at(string, i++) = CHAR_DEL;
+            string_at(string, i++) = CHAR_DEL;
+            continue;
+        }
+
+        // Mark string
+        if (c == '"' || c == '\''){
+            size_t start = i;
+            char quote = c;
+            // Skip opening quote
+            i++;
+
+            for (; i < n && string_at(string, i) != quote; i++){
+                if (string_at(string, i) == '\\'){
+                    string_at(string, i) = CHAR_DEL;
+                    i++;
+                    if (i >= n) break;
+                }
+                string_at(string, i) = CHAR_DEL;
+            }
+
+            if (i >= n || string_at(string, i) != quote){
+                fprintf(stderr,
+                    "FEHLER: String in Datei %s wurde nicht terminiert.\n",
+                    context->path);
+                context->offset = start;
+                return EXIT_FAILURE;
+            }
+
+            // Skip closing quote char
+            i++;
+
+            continue;
+        }
+
+        // Check if char is allowed
+        if (!is_allowed_char(c)){
+            unsigned char u = *(unsigned char*)&c;
+            fprintf(stderr,
+                "FEHLER: Unerlaubtes Zeichen '%c' (ASCII Code %u) in Datei %s "
+                "gefunden.\nErlaubte Zeichen sind Tab, Zeilenumbruch und die "
+                "Zeichen von 32 bis 126.\n", c, u, context->path);
+            context->offset = i;
+            return EXIT_FAILURE;
+        }
+
+        i++;
+    }
+
+    return 0;
+}
+
+void context_append(Context *context, char c){
+    buffer_push(context->buffer, c);
+}
+
+void context_append_text(Context *context, const char *text){
+    for (; *text; text++){
+        context_append(context, *text);
+    }
+}
+
+void on_non_whitespace(Context *context){
+    if (!context->seen_non_whitespace){
+        context->seen_non_whitespace = 1;
+        // Indent
+        for (size_t k = 0; k < context->depth * TAB_WIDTH; k++){
+            context_append(context, ' ');
+        }
+    }
+}
+
+void on_linebreak(Context *context, size_t end){
+    String *string = context->string;
+    assert(string_at(string, end) == '\n');
+    size_t start = context->line_start;
+    if (context->seen_non_whitespace){
+        if (context->line_length > MAX_LINE_LENGTH){
+            context->violates_code_style = 1;
+            char buf[128];
+            snprintf(
+                buf, sizeof(buf),
+                "// <--- FEHLER: Zeile zu lang (%zu / %d Zeichen)",
+                context->line_length,
+                MAX_LINE_LENGTH);
+            context->offset = context->line_start;
+            context_append_text(context, buf);
+        }
+        int contains_for = string_contains(string, "for", start, end);
+        int contains_break = string_contains(string, "break", start, end);
+        if (context->num_semicolons > 1 && !contains_for && !contains_break){
+            char buf[128];
+            snprintf(buf, sizeof(buf),
+                "// <--- FEHLER: Mehr als eine Anweisung in dieser Zeile.");
+            context->offset = context->line_start;
+            context_append_text(context, buf);
+
+            context->violates_code_style = 1;
+        }
+        context_append(context, '\n');
+        if (context->depth != 0) context->number_of_lines++;
+    }
+    context->num_semicolons = 0;
+    context->seen_non_whitespace = 0;
+    context->line_length = context->depth * TAB_WIDTH;
+    context->line_start = end + 1;
+}
+
+void on_tab(Context *context){
+    for (size_t k = 0; k < TAB_WIDTH; k++){
+        context_append(context, ' ');
+    }
+    context->line_length += TAB_WIDTH;
+}
+
+void context_init_function(Context *context){
+    context->start = NOT_FOUND;
+    context->offset = NOT_FOUND;
+    context->seen_non_whitespace = 1;
+    context->depth = 0;
+    context->line_length = 0;
+    context->number_of_lines = 0;
+    context->num_semicolons = 0;
+    context->line_start = NOT_FOUND;
+    context->violates_code_style = 0;
+    buffer_init(context->buffer);
+}
+
+int is_name(char c){
+    return
+        ('a' <= c && c <= 'z') ||
+        ('A' <= c && c <= 'Z') ||
+        ('0' <= c && c <= '9') ||
+        (c == '_');
+}
+
+int is_whitespace_or_ptr(char c){
+    return c == '*' || c == '[' || c == ']' || is_whitespace(c);
+}
+
+int scan_backwards_for_signature(Context *context, size_t start){
+    // TODO: This will break if function pointers are used
+    String *string = context->string;
+    if (start > 0) start--;
+    // Scan backwards for first non-whitespace char
+    while (start > 0 && is_whitespace(string_at(string, start))) start--;
+    // Not a function if there is no ')' before '{'
+    if (string_at(string, start) != ')') return 1;
+    // Scan backwards for '('
+    while (start > 0 && string_at(string, start) != '(') start--;
+    if (start > 0) start--;
+    // Scan backwards through whitespace
+    while (start > 0 && is_whitespace(string_at(string, start))) start--;
+    // Scan backwards through name
+    while (start > 0 && is_name(string_at(string, start))) start--;
+    // Scan backwards through whitespace
+    while (start > 0 && is_whitespace_or_ptr(string_at(string, start))) start--;
+    // Scan backwards through name
+    while (start > 0 && is_name(string_at(string, start))) start--;
+    // Scan forward into first char of name
+    if (!is_name(string_at(string, start))) start++;
+
+    context->start = start;
+    context->offset = start;
+    return 0;
+}
+
+void print_location(Context *context){
+    const char *code = context->code;
+    String *string = context->string;
+    size_t line = 1;
+    size_t end = string_ptr(string, context->offset)->offset;
+    for (size_t i = 0; i <= end && code[i]; i++){
+        line += (code[i] == '\n');
+    }
+    fprintf(stderr, "\nFehler in Datei %s Zeile %zu\n", context->path, line);
+    fprintf(stderr,
+        "Anmerkung: Der Code wurde automatisch formatiert. "
+        "Strings und Kommentare wurden entfernt.\n"
+        "Lesen Sie nochmal die Code-Vorgaben im Lernmodul.\n\n"
+    );
+}
+
+int check_code_style_function(Context *context, size_t start, size_t end){
+    String *string = context->string;
+
+    assert(start <= end);
+    assert(end <= string->length);
+
+    context_init_function(context);
+    if (0 != scan_backwards_for_signature(context, start)) return 0;
+    for (size_t i = context->start; i < end; i++){
+        char c = string_at(string, i);
+        switch (c){
+            case '\t':
+                on_tab(context);
+                break;
+
+            case ' ':
+                context_append(context, ' ');
+                context->line_length++;
+                break;
+
+            case '\r':
+                break;
+
+            case '{':
+                on_non_whitespace(context);
+
+                context_append(context, '{');
+                context->depth++;
+                context->line_length++;
+                break;
+
+            case '}':
+                assert(context->depth > 0);
+                context->depth--;
+                context->line_length++;
+
+                on_non_whitespace(context);
+
+                context_append(context, '}');
+                break;
+
+            case '\n':
+                on_linebreak(context, i);
+                // Skip \n
+                i++;
+                // Skip whitespace
+                while (i < end && strchr(" \t", string_at(string, i))) i++;
+                // Unskip one char because for-loop should skip it instead
+                i--;
+                break;
+
+            default:
+                if (c == ';') context->num_semicolons++;
+
+                on_non_whitespace(context);
+
+                context_append(context, c);
+
+                context->line_length++;
+                break;
+        }
+    }
+    context_append(context, '\n');
+    if (context->number_of_lines > 1){
+        // subtract 1 for { and } (another 1 is missing due to counting method)
+        context->number_of_lines -= 1;
+    }
+    if (context->number_of_lines > MAX_LINES_PER_FUNCTION){
+        context->violates_code_style = 1;
+        char buf[128];
+        snprintf(buf, sizeof(buf), "FEHLER: Zu viele Zeilen (%zu / %i).\n",
+            context->number_of_lines,
+            MAX_LINES_PER_FUNCTION);
+        context_append_text(context, buf);
+    }
+    return context->violates_code_style;
+}
+
+void print_formatted_code(Context *context){
+    context_append(context, '\0');
+    fprintf(stderr, "%s", context->buffer->data);
+}
+
+int check_code_style(const char *path){
+    String string[1];
+    char *code = read_text(path, string);
+    if (!code){
+        fprintf(stderr, "FEHLER: Konnte Datei %s nicht lesen.\n", path);
+        return EXIT_FAILURE;
+    }
+
+    int return_value = EXIT_SUCCESS;
+
+    Context context[1];
+    context->code = code;
+    context->path = path;
+    context->string = string;
+    context->offset = NOT_FOUND;
+    if (0 == mark_strings_and_comments(context)){
+
+        string_mark_space_before_curly_open(string);
+        string_remove_char(string, CHAR_DEL);
+        string_replace(string, "{", "{\n");
+        string_replace(string, "}", "\n}");
+
+        size_t length = string->length;
+        for (size_t i = 0; i < length;){
+            size_t count = 1;
+            if (string_at(string, i) == '{'){
+                size_t start = i;
+                for (i = start + 1; i < length && count != 0; i++){
+                    switch (string_at(string, i)){
+                        case '{': count++; break;
+                        case '}': count--; break;
+                    }
+                }
+                if (count == 0){
+                    size_t end = i;
+                    if (0 != check_code_style_function(context, start, end)){
+                        print_formatted_code(context);
+                        buffer_free(context->buffer);
+                        return_value = EXIT_FAILURE;
+                        break;
+                    }
+                    buffer_free(context->buffer);
+                }else{
+                    fprintf(stderr, "FEHLER: Mehr '}' als '{' in Datei %s\n", path);
+                    return_value = EXIT_FAILURE;
+                    break;
+                }
+            }else{
+                i++;
+            }
+        }
+    }else{
+        return_value = EXIT_FAILURE;
+    }
+
+    if (return_value != EXIT_SUCCESS && context->offset != NOT_FOUND){
+        print_location(context);
+    }
+
+    string_free(string);
+    free(code);
+
+    return return_value;
+}
+
+int endswith(const char *string, const char *suffix){
+    size_t string_length = strlen(string);
+    size_t suffix_length = strlen(suffix);
+
+    if (string_length < suffix_length) return 0;
+
+    size_t offset = string_length - suffix_length;
+
+    return 0 == memcmp(string + offset, suffix, suffix_length);
+}
+
+int is_c_or_h_file(const char *path){
+    return endswith(path, ".c") || endswith(path, ".h");
+}
+
+int scan(const char *path);
+
+int scan_directory(const char *directory){
+    DIR *dir = opendir(directory);
+
+    if (!dir){
+        fprintf(stderr, "FEHLER: Konnte Verzeichnis \"%s\" nicht öffnen.\n", directory);
+        return EXIT_FAILURE;
+    }
+
+    int error = EXIT_SUCCESS;
+
+    while (1){
+        struct dirent *entry = readdir(dir);
+
+        if (!entry) break;
+        if (skip_filename(entry->d_name)) continue;
+
+        char path[MY_PATH_MAX];
+        snprintf(path, sizeof(path), "%s/%s", directory, entry->d_name);
+
+        error = scan(path);
+
+        if (error) break;
+    }
+
+    closedir(dir);
+
+    return error;
+}
+
+int scan(const char *path){
+    if (is_dir(path)){
+        return scan_directory(path);
+    }
+
+    if (is_c_or_h_file(path)){
+        return check_code_style(path);
+    }
+
+    return 0;
+}
+
+void tests(){
+    assert(endswith("test.c", ".c"));
+    assert(!endswith("test.c", ".h"));
+    assert(!endswith("testc", ".c"));
+
+    String s[1];
+    string_new(s, "/*foo*/");
+    assert(string_find_char(s, '/', 0) == 0);
+    assert(string_find_char(s, '*', 0) == 1);
+    assert(string_find_char(s, 'f', 0) == 2);
+    assert(string_find_char(s, '*', 2) == 5);
+    for (size_t i = 0; i < 10; i++){
+        assert((i == 0) == string_eq_at(s, "/*", i));
+        assert((i == 2) == string_eq_at(s, "foo", i));
+        assert((i == 5) == string_eq_at(s, "*/", i));
+    }
+    string_remove_char(s, '*');
+    assert(string_eq(s, "/foo/"));
+    string_free(s);
+
+    string_new(s, "??");
+    string_replace(s, "?", "ha");
+    assert(string_eq(s, "haha"));
+    string_free(s);
+
+    string_new(s, "asdfadfasdfdfasdfasdfdsfasdfasdfasdfasdf");
+    string_replace(s, "asd", "_");
+    assert(string_eq(s, "_fadf_fdf_f_fdsf_f_f_f_f"));
+    string_replace(s, "f", "123");
+    assert(string_eq(s, "_123ad123_123d123_123_123ds123_123_123_123_123"));
+    string_free(s);
+
+    string_new(s, "123asdf456");
+    assert(string_contains(s, "asdf", 0, s->length));
+    assert(string_contains(s, "456", 0, s->length));
+    assert(!string_contains(s, "456", 0, s->length - 1));
+    assert(!string_contains(s, "456", 8, s->length));
+    assert(!string_contains(s, "asdf", 4, s->length));
+    assert(string_contains(s, "123asdf456", 0, s->length));
+    assert(!string_contains(s, "123asdf456", 1, s->length));
+    string_free(s);
+}
+
+int main(int argc, char **argv){
+    tests();
+
+    if (argc <= 1){
+        return scan_directory(".");
+    }
+
+    for (int i = 1; i < argc; i++){
+        int error = scan(argv[i]);
+
+        if (error) return error;
+    }
+
+    return EXIT_SUCCESS;
+}

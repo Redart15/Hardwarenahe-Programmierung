@@ -1,0 +1,4 @@
+gcc -g -fsanitize=address -fsanitize=undefined -Wall -std=c99 `pkg-config --cflags check` text.c text_tests.c -o tests `pkg-config --libs check`
+./tests
+Running suite(s): Core
+100%: Checks: 17, Failures: 0, Errors: 0

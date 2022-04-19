@@ -1,0 +1,77 @@
+/*
+  	for(;text[pos_text]!='\0';pos_text++){
+		if(text[pos_text]=='*'){
+			str_laenge = strlen(strings[pos_array]);
+			strncat(ausgabe,strings[pos_array],str_laenge);
+			pos_aus = pos_aus+str_laenge;
+			pos_array++;
+			}
+		while(text[pos_text]=='*'){pos_text++;}
+		ausgabe[pos_aus]=text[pos_text];
+		pos_aus++; 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ //~ * //~ int non_empty_size(char strings[100][100]){
+	int anzahl=0;
+	for(int cnt=0;strings[cnt][0]!='\0';cnt++){anzahl++;}
+	return anzahl;
+}
+
+		while(pos_text<100){
+		for(;text[pos_text]!='*';pos_text++){copier_laenge++;}
+		strncat(ausgabe,text,copier_laenge);
+		ausgabe += copier_laenge;
+		text += pos_text;
+		laenge_string=strlen(strings[pos_array]);
+		strncat(ausgabe,strings[pos_array],laenge_string);
+		ausgabe +=laenge_string;
+		pos_array++;
+	while(pos_text<50){
+		for(;text[pos_text]!='*';pos_output++){
+			ausgabe[pos_output]=text[pos_text];
+			pos_text++;
+		}
+		printf("%i,dies ist die Position im Text\n",pos_text);
+		laenge_string = strlen(strings[pos_array]);
+		strncat(ausgabe,strings[pos_array],laenge_string);
+		for(;text[pos_text]=='*';pos_text++){
+			strings[pos_array][pos_in]='*';
+			pos_in++;
+		}
+		strings[pos_array][pos_in]='\0';
+		pos_in=0;
+		pos_array++;
+	int laenge = strlen(text)+1;
+	memset(ausgabe,0,laenge);
+	memmove(ausgabe,text,laenge);
+	for(int cnt=0;cnt<=strlen(ausgabe);cnt++){
+		if((ausgabe[cnt]=='*')&&(ausgabe[cnt+1]=='*')){											
+			memmove(ausgabe+cnt,ausgabe+cnt+1,strlen(ausgabe)-cnt);
+			cnt--;
+		}
+	}	
+	for(;cnt<=strlen(text);cnt++){
+		if(text[cnt]=='*'){
+			anzahl++;
+			while(text[cnt]=='*'){cnt++;}
+		}
+	}
+	//~ * 	//~ while(text[pos_text]!='\0'){
+		if(text[pos_text]=='*'){
+			str_laenge = strlen(strings[pos_array]);
+			strncat(ausgabe,strings[pos_array],str_laenge);
+			pos_aus = pos_aus+str_laenge;
+			pos_array++;
+		}
+		ausgabe[pos_aus]=text[pos_text];
+		pos_text++;
+		pos_aus++;
+	}*/
+
+

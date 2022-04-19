@@ -1,0 +1,10 @@
+Maus Micky 12345 18 11 1928 ja Mathematik
+Duck Donald 23456 13 3 1920 ja Informatik
+Knack Opa 186802 1 1 1880 nein Physik
+Gaukeley Gundel 34567 8 8 1908 nein Physik
+Duck Tick 45678 17 10 1938 ja Informatik
+Duck Trick 54678 17 10 1938 ja Informatik
+Duck Track 64578 17 10 1938 ja Informatik
+Duesentrieb Daniel 56789 16 6 1937 ja Physik
+Maus Minerva  78901 19 11 1928 ja Mathematik
+Karlo Kater 89012 17 13 1920 nein Mathematik

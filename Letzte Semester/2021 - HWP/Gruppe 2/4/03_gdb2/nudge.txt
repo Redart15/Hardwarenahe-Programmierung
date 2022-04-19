@@ -1,0 +1,12 @@
+set history save on
+set history filename nudge.txt
+break 66
+run
+watch zahl if zahl>36
+commands
+set zahl=36
+c
+end
+d 1
+c
+quit

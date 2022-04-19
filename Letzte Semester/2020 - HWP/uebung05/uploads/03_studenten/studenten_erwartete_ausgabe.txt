@@ -1,0 +1,99 @@
+Student 1:
+---------------------------------------------------
+Name      : Maus
+Vorname   : Micky
+Matrikel  : 12345
+Geburtstag: 1928-11-18
+Zulassung : ja
+Hauptfach : Mathematik
+---------------------------------------------------
+Student 2:
+---------------------------------------------------
+Name      : Duck
+Vorname   : Donald
+Matrikel  : 23456
+Geburtstag: 1920-03-13
+Zulassung : ja
+Hauptfach : Informatik
+---------------------------------------------------
+Student 3:
+---------------------------------------------------
+Name      : Knack
+Vorname   : Opa
+Matrikel  : 186802
+Geburtstag: 1880-01-01
+Zulassung : nein
+Hauptfach : Physik
+---------------------------------------------------
+Student 4:
+---------------------------------------------------
+Name      : Gaukeley
+Vorname   : Gundel
+Matrikel  : 34567
+Geburtstag: 1908-08-08
+Zulassung : nein
+Hauptfach : Physik
+---------------------------------------------------
+Student 5:
+---------------------------------------------------
+Name      : Duck
+Vorname   : Tick
+Matrikel  : 45678
+Geburtstag: 1938-10-17
+Zulassung : ja
+Hauptfach : Informatik
+---------------------------------------------------
+Student 6:
+---------------------------------------------------
+Name      : Duck
+Vorname   : Trick
+Matrikel  : 54678
+Geburtstag: 1938-10-17
+Zulassung : ja
+Hauptfach : Informatik
+---------------------------------------------------
+Student 7:
+---------------------------------------------------
+Name      : Duck
+Vorname   : Track
+Matrikel  : 64578
+Geburtstag: 1938-10-17
+Zulassung : ja
+Hauptfach : Informatik
+---------------------------------------------------
+Student 8:
+---------------------------------------------------
+Name      : Duesentrieb
+Vorname   : Daniel
+Matrikel  : 56789
+Geburtstag: 1937-06-16
+Zulassung : ja
+Hauptfach : Physik
+---------------------------------------------------
+Student 9:
+---------------------------------------------------
+Name      : Maus
+Vorname   : Minerva
+Matrikel  : 78901
+Geburtstag: 1928-11-19
+Zulassung : ja
+Hauptfach : Mathematik
+---------------------------------------------------
+Student 10:
+---------------------------------------------------
+Name      : Karlo
+Vorname   : Kater
+Matrikel  : 89012
+Geburtstag: 1920-13-17
+Zulassung : nein
+Hauptfach : Mathematik
+---------------------------------------------------
+Der älteste Student ist:
+---------------------------------------------------
+Name      : Knack
+Vorname   : Opa
+Matrikel  : 186802
+Geburtstag: 1880-01-01
+Zulassung : nein
+Hauptfach : Physik
+---------------------------------------------------

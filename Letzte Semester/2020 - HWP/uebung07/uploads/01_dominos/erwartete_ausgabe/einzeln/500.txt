@@ -1,0 +1,500 @@
+Domino mit Augen (3, 3) und Richtung 0 wurde angelegt an Position (0, 0).
+Domino mit Augen (1, 3) und Richtung 2 wurde angelegt an Position (3, 0).
+Domino mit Augen (1, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 3 wurde angelegt an Position (0, 2).
+Domino mit Augen (4, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 1 wurde angelegt an Position (2, 1).
+Domino mit Augen (5, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (4, 2).
+Domino mit Augen (4, 6) und Richtung 0 wurde angelegt an Position (4, 1).
+Domino mit Augen (3, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (6, 3) und Richtung 3 wurde angelegt an Position (6, 1).
+Domino mit Augen (1, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (0, 3).
+Domino mit Augen (3, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 1 wurde angelegt an Position (1, 4).
+Domino mit Augen (5, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 0 wurde angelegt an Position (7, 0).
+Domino mit Augen (3, 3) und Richtung 0 wurde angelegt an Position (2, 4).
+Domino mit Augen (4, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 1 wurde angelegt an Position (9, 0).
+Domino mit Augen (3, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 1) und Richtung 0 wurde angelegt an Position (6, 2).
+Domino mit Augen (5, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (2, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 4) und Richtung 0 wurde angelegt an Position (7, 3).
+Domino mit Augen (1, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 0 wurde angelegt an Position (4, 4).
+Domino mit Augen (3, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 5) und Richtung 2 wurde angelegt an Position (6, 5).
+Domino mit Augen (2, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 1 wurde angelegt an Position (5, 6).
+Domino mit Augen (1, 4) und Richtung 3 wurde angelegt an Position (9, 4).
+Domino mit Augen (1, 5) und Richtung 0 wurde angelegt an Position (1, 6).
+Domino mit Augen (4, 2) und Richtung 1 wurde angelegt an Position (7, 5).
+Domino mit Augen (1, 3) und Richtung 2 wurde angelegt an Position (1, 7).
+Domino mit Augen (6, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 6) und Richtung 2 wurde angelegt an Position (7, 7).
+Domino mit Augen (2, 1) und Richtung 0 wurde angelegt an Position (8, 6).
+Domino mit Augen (2, 6) und Richtung 0 wurde angelegt an Position (3, 7).
+Domino mit Augen (4, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (6, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 3 wurde angelegt an Position (8, 8).
+Domino mit Augen (6, 2) und Richtung 0 wurde angelegt an Position (2, 8).
+Domino mit Augen (6, 1) und Richtung 2 wurde angelegt an Position (2, 9).
+Domino mit Augen (3, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (2, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 3) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (6, 4) und Richtung 2 wurde angelegt an Position (8, 9).
+Domino mit Augen (3, 6) und Richtung 2 wurde angelegt an Position (3, 10).
+Domino mit Augen (3, 5) und Richtung 1 wurde angelegt an Position (4, 10).
+Domino mit Augen (6, 6) und Richtung 2 wurde angelegt an Position (6, 8).
+Domino mit Augen (2, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 2 wurde angelegt an Position (4, 12).
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (6, 10).
+Domino mit Augen (3, 5) und Richtung 3 wurde angelegt an Position (5, 13).
+Domino mit Augen (2, 5) und Richtung 1 wurde angelegt an Position (6, 11).
+Domino mit Augen (3, 1) und Richtung 0 wurde angelegt an Position (1, 12).
+Domino mit Augen (6, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 2 wurde angelegt an Position (2, 13).
+Domino mit Augen (6, 3) und Richtung 0 wurde angelegt an Position (0, 11).
+Domino mit Augen (4, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 0 wurde angelegt an Position (7, 12).
+Domino mit Augen (2, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 0 wurde angelegt an Position (0, 14).
+Domino mit Augen (5, 3) und Richtung 0 wurde angelegt an Position (4, 14).
+Domino mit Augen (2, 6) und Richtung 3 wurde angelegt an Position (9, 10).
+Domino mit Augen (5, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (2, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 3 wurde angelegt an Position (9, 13).
+Domino mit Augen (2, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 1 wurde angelegt an Position (0, 8).
+Domino mit Augen (3, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 4) und Richtung 1 wurde angelegt an Position (7, 13).
+Domino mit Augen (4, 6) und Richtung 1 wurde angelegt an Position (8, 14).
+Domino mit Augen (3, 5) und Richtung 1 wurde angelegt an Position (1, 15).
+Domino mit Augen (1, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 3 wurde angelegt an Position (9, 16).
+Domino mit Augen (1, 5) und Richtung 0 wurde angelegt an Position (3, 15).
+Domino mit Augen (2, 5) und Richtung 3 wurde angelegt an Position (0, 17).
+Domino mit Augen (2, 4) und Richtung 3 wurde angelegt an Position (9, 18).
+Domino mit Augen (4, 2) und Richtung 3 wurde angelegt an Position (0, 19).
+Domino mit Augen (6, 5) und Richtung 3 wurde angelegt an Position (2, 17).
+Domino mit Augen (2, 3) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 2) und Richtung 1 wurde angelegt an Position (8, 17).
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (4, 16).
+Domino mit Augen (3, 1) und Richtung 2 wurde angelegt an Position (4, 18).
+Domino mit Augen (2, 4) und Richtung 1 wurde angelegt an Position (7, 16).
+Domino mit Augen (3, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 1) und Richtung 0 wurde angelegt an Position (2, 19).
+Domino mit Augen (2, 3) und Richtung 1 wurde angelegt an Position (8, 19).
+Domino mit Augen (2, 3) und Richtung 1 wurde angelegt an Position (7, 19).
+Domino mit Augen (6, 3) und Richtung 0 wurde angelegt an Position (5, 20).
+Domino mit Augen (6, 6) und Richtung 0 wurde angelegt an Position (4, 21).
+Domino mit Augen (2, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 5) und Richtung 3 wurde angelegt an Position (6, 16).
+Domino mit Augen (1, 1) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (6, 3) und Richtung 2 wurde angelegt an Position (5, 9).
+Domino mit Augen (1, 3) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (6, 22).
+Domino mit Augen (4, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 2 wurde angelegt an Position (6, 18).
+Domino mit Augen (6, 3) und Richtung 2 wurde angelegt an Position (3, 21).
+Domino mit Augen (2, 3) und Richtung 0 wurde angelegt an Position (0, 21).
+Domino mit Augen (2, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 0 wurde angelegt an Position (4, 23).
+Domino mit Augen (5, 6) und Richtung 3 wurde angelegt an Position (3, 23).
+Domino mit Augen (6, 4) und Richtung 2 wurde angelegt an Position (8, 22).
+Domino mit Augen (4, 5) und Richtung 0 wurde angelegt an Position (1, 23).
+Domino mit Augen (2, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 1) und Richtung 2 wurde angelegt an Position (1, 24).
+Domino mit Augen (2, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (3, 24).
+Domino mit Augen (1, 6) und Richtung 3 wurde angelegt an Position (9, 23).
+Domino mit Augen (1, 1) und Richtung 2 wurde angelegt an Position (9, 24).
+Domino mit Augen (3, 5) und Richtung 0 wurde angelegt an Position (4, 25).
+Domino mit Augen (4, 3) und Richtung 1 wurde angelegt an Position (1, 25).
+Domino mit Augen (6, 1) und Richtung 3 wurde angelegt an Position (7, 25).
+Domino mit Augen (3, 5) und Richtung 1 wurde angelegt an Position (0, 26).
+Domino mit Augen (6, 6) und Richtung 2 wurde angelegt an Position (7, 26).
+Domino mit Augen (5, 2) und Richtung 0 wurde angelegt an Position (0, 28).
+Domino mit Augen (3, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 1 wurde angelegt an Position (2, 26).
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (9, 26).
+Domino mit Augen (3, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 5) und Richtung 1 wurde angelegt an Position (1, 29).
+Domino mit Augen (1, 1) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 2 wurde angelegt an Position (1, 31).
+Domino mit Augen (5, 1) und Richtung 0 wurde angelegt an Position (3, 27).
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (3, 28).
+Domino mit Augen (6, 4) und Richtung 3 wurde angelegt an Position (9, 28).
+Domino mit Augen (4, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 0 wurde angelegt an Position (7, 28).
+Domino mit Augen (5, 1) und Richtung 0 wurde angelegt an Position (4, 29).
+Domino mit Augen (1, 4) und Richtung 0 wurde angelegt an Position (5, 28).
+Domino mit Augen (2, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 1 wurde angelegt an Position (7, 29).
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (2, 30).
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (4, 30).
+Domino mit Augen (2, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 1 wurde angelegt an Position (9, 20).
+Domino mit Augen (4, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 3) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (2, 3) und Richtung 2 wurde angelegt an Position (6, 31).
+Domino mit Augen (4, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 1 wurde angelegt an Position (4, 32).
+Domino mit Augen (3, 3) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 3) und Richtung 2 wurde angelegt an Position (6, 32).
+Domino mit Augen (4, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 1) und Richtung 2 wurde angelegt an Position (3, 33).
+Domino mit Augen (3, 2) und Richtung 2 wurde angelegt an Position (8, 32).
+Domino mit Augen (5, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (6, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 1 wurde angelegt an Position (9, 31).
+Domino mit Augen (2, 2) und Richtung 3 wurde angelegt an Position (6, 34).
+Domino mit Augen (1, 1) und Richtung 0 wurde angelegt an Position (0, 33).
+Domino mit Augen (1, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (7, 34).
+Domino mit Augen (1, 4) und Richtung 3 wurde angelegt an Position (9, 35).
+Domino mit Augen (2, 1) und Richtung 2 wurde angelegt an Position (3, 34).
+Domino mit Augen (5, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 6) und Richtung 3 wurde angelegt an Position (9, 30).
+Domino mit Augen (5, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 0 wurde angelegt an Position (1, 35).
+Domino mit Augen (6, 2) und Richtung 0 wurde angelegt an Position (5, 35).
+Domino mit Augen (4, 6) und Richtung 3 wurde angelegt an Position (4, 36).
+Domino mit Augen (5, 2) und Richtung 1 wurde angelegt an Position (0, 35).
+Domino mit Augen (4, 1) und Richtung 3 wurde angelegt an Position (2, 37).
+Domino mit Augen (2, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 1 wurde angelegt an Position (7, 35).
+Domino mit Augen (6, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 2) und Richtung 0 wurde angelegt an Position (4, 37).
+Domino mit Augen (6, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 2 wurde angelegt an Position (6, 38).
+Domino mit Augen (6, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 3 wurde angelegt an Position (0, 38).
+Domino mit Augen (2, 2) und Richtung 3 wurde angelegt an Position (5, 40).
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (8, 38).
+Domino mit Augen (3, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (6, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 5) und Richtung 1 wurde angelegt an Position (4, 40).
+Domino mit Augen (1, 3) und Richtung 3 wurde angelegt an Position (1, 39).
+Domino mit Augen (6, 4) und Richtung 0 wurde angelegt an Position (7, 39).
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (3, 41).
+Domino mit Augen (3, 2) und Richtung 3 wurde angelegt an Position (6, 41).
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (2, 42).
+Domino mit Augen (1, 4) und Richtung 1 wurde angelegt an Position (9, 36).
+Domino mit Augen (4, 1) und Richtung 0 wurde angelegt an Position (0, 40).
+Domino mit Augen (1, 6) und Richtung 0 wurde angelegt an Position (2, 39).
+Domino mit Augen (1, 5) und Richtung 0 wurde angelegt an Position (1, 41).
+Domino mit Augen (6, 4) und Richtung 2 wurde angelegt an Position (9, 40).
+Domino mit Augen (3, 4) und Richtung 3 wurde angelegt an Position (8, 42).
+Domino mit Augen (5, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 3) und Richtung 1 wurde angelegt an Position (6, 42).
+Domino mit Augen (4, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (4, 42).
+Domino mit Augen (5, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 5) und Richtung 0 wurde angelegt an Position (3, 44).
+Domino mit Augen (3, 2) und Richtung 1 wurde angelegt an Position (9, 42).
+Domino mit Augen (4, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 1) und Richtung 3 wurde angelegt an Position (3, 46).
+Domino mit Augen (6, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 4) und Richtung 1 wurde angelegt an Position (1, 43).
+Domino mit Augen (4, 5) und Richtung 1 wurde angelegt an Position (0, 44).
+Domino mit Augen (4, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 1 wurde angelegt an Position (9, 44).
+Domino mit Augen (1, 4) und Richtung 2 wurde angelegt an Position (5, 46).
+Domino mit Augen (3, 3) und Richtung 1 wurde angelegt an Position (7, 42).
+Domino mit Augen (6, 4) und Richtung 3 wurde angelegt an Position (3, 38).
+Domino mit Augen (1, 6) und Richtung 3 wurde angelegt an Position (6, 46).
+Domino mit Augen (6, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 1) und Richtung 2 wurde angelegt an Position (8, 46).
+Domino mit Augen (2, 5) und Richtung 3 wurde angelegt an Position (0, 47).
+Domino mit Augen (2, 2) und Richtung 0 wurde angelegt an Position (1, 47).
+Domino mit Augen (1, 2) und Richtung 3 wurde angelegt an Position (8, 48).
+Domino mit Augen (3, 2) und Richtung 3 wurde angelegt an Position (0, 49).
+Domino mit Augen (6, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (5, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 1) und Richtung 0 wurde angelegt an Position (5, 47).
+Domino mit Augen (4, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 2 wurde angelegt an Position (3, 48).
+Domino mit Augen (4, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 2) und Richtung 3 wurde angelegt an Position (2, 50).
+Domino mit Augen (3, 2) und Richtung 0 wurde angelegt an Position (7, 44).
+Domino mit Augen (4, 2) und Richtung 1 wurde angelegt an Position (1, 50).
+Domino mit Augen (5, 1) und Richtung 0 wurde angelegt an Position (7, 49).
+Domino mit Augen (4, 6) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 1) und Richtung 1 wurde angelegt an Position (9, 47).
+Domino mit Augen (5, 5) und Richtung 3 wurde angelegt an Position (6, 50).
+Domino mit Augen (3, 5) und Richtung 2 wurde angelegt an Position (7, 51).
+Domino mit Augen (6, 1) und Richtung 3 wurde angelegt an Position (9, 50).
+Domino mit Augen (5, 3) und Richtung 2 wurde angelegt an Position (5, 49).
+Domino mit Augen (5, 1) und Richtung 2 wurde angelegt an Position (5, 51).
+Domino mit Augen (3, 5) und Richtung 3 wurde angelegt an Position (5, 53).
+Domino mit Augen (3, 5) und Richtung 0 wurde angelegt an Position (7, 52).
+Domino mit Augen (2, 2) und Richtung 0 wurde angelegt an Position (0, 52).
+Domino mit Augen (3, 5) und Richtung 2 wurde angelegt an Position (4, 53).
+Domino mit Augen (1, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 3 wurde angelegt an Position (3, 52).
+Domino mit Augen (2, 1) und Richtung 1 wurde angelegt an Position (0, 53).
+Domino mit Augen (3, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 2) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 5) und Richtung 0 wurde angelegt an Position (1, 54).
+Domino mit Augen (3, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 1) und Richtung 3 wurde angelegt an Position (0, 56).
+Domino mit Augen (3, 6) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 2 wurde angelegt an Position (9, 53).
+Domino mit Augen (2, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 3) und Richtung 3 wurde angelegt an Position (6, 54).
+Domino mit Augen (1, 3) und Richtung 3 wurde angelegt an Position (4, 55).
+Domino mit Augen (6, 4) und Richtung 3 wurde angelegt an Position (7, 55).
+Domino mit Augen (2, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 1) und Richtung 1 wurde angelegt an Position (3, 55).
+Domino mit Augen (5, 1) und Richtung 2 wurde angelegt an Position (5, 56).
+Domino mit Augen (6, 1) und Richtung 1 wurde angelegt an Position (8, 55).
+Domino mit Augen (2, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 4) und Richtung 2 wurde angelegt an Position (3, 57).
+Domino mit Augen (2, 6) und Richtung 1 wurde angelegt an Position (0, 57).
+Domino mit Augen (3, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 3) und Richtung 0 wurde angelegt an Position (0, 59).
+Domino mit Augen (2, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 3) und Richtung 1 wurde angelegt an Position (2, 59).
+Domino mit Augen (3, 4) und Richtung 1 wurde angelegt an Position (1, 60).
+Domino mit Augen (2, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 2 wurde angelegt an Position (8, 57).
+Domino mit Augen (6, 3) und Richtung 0 wurde angelegt an Position (6, 58).
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (0, 62).
+Domino mit Augen (5, 4) und Richtung 3 wurde angelegt an Position (2, 63).
+Domino mit Augen (3, 1) und Richtung 0 wurde angelegt an Position (3, 59).
+Domino mit Augen (6, 1) und Richtung 1 wurde angelegt an Position (9, 55).
+Domino mit Augen (5, 6) und Richtung 0 wurde angelegt an Position (3, 63).
+Domino mit Augen (2, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 5) und Richtung 2 wurde angelegt an Position (2, 64).
+Domino mit Augen (6, 1) und Richtung 3 wurde angelegt an Position (9, 58).
+Domino mit Augen (2, 3) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 5) und Richtung 3 wurde angelegt an Position (0, 65).
+Domino mit Augen (5, 3) und Richtung 0 wurde angelegt an Position (2, 65).
+Domino mit Augen (4, 4) und Richtung 2 wurde angelegt an Position (1, 66).
+Domino mit Augen (6, 2) und Richtung 2 wurde angelegt an Position (9, 59).
+Domino mit Augen (6, 3) und Richtung 3 wurde angelegt an Position (3, 61).
+Domino mit Augen (2, 2) und Richtung 1 wurde angelegt an Position (8, 60).
+Domino mit Augen (2, 2) und Richtung 3 wurde angelegt an Position (7, 61).
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (5, 61).
+Domino mit Augen (3, 2) und Richtung 0 wurde angelegt an Position (6, 62).
+Domino mit Augen (4, 6) und Richtung 1 wurde angelegt an Position (0, 67).
+Domino mit Augen (3, 6) und Richtung 1 wurde angelegt an Position (6, 63).
+Domino mit Augen (4, 1) und Richtung 3 wurde angelegt an Position (5, 60).
+Domino mit Augen (5, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 3 wurde angelegt an Position (9, 62).
+Domino mit Augen (2, 1) und Richtung 3 wurde angelegt an Position (1, 56).
+Domino mit Augen (3, 6) und Richtung 3 wurde angelegt an Position (4, 65).
+Domino mit Augen (3, 1) und Richtung 1 wurde angelegt an Position (9, 63).
+Domino mit Augen (4, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 4) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 0 wurde angelegt an Position (4, 66).
+Domino mit Augen (1, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 5) und Richtung 1 wurde angelegt an Position (8, 64).
+Domino mit Augen (4, 5) und Richtung 2 wurde angelegt an Position (9, 66).
+Domino mit Augen (4, 2) und Richtung 3 wurde angelegt an Position (6, 67).
+Domino mit Augen (5, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 4) und Richtung 2 wurde angelegt an Position (2, 67).
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (6, 68).
+Domino mit Augen (1, 2) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 0 wurde angelegt an Position (3, 68).
+Domino mit Augen (2, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 4) und Richtung 0 wurde angelegt an Position (2, 69).
+Domino mit Augen (5, 3) und Richtung 1 wurde angelegt an Position (8, 67).
+Domino mit Augen (2, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 0 wurde angelegt an Position (6, 69).
+Domino mit Augen (4, 1) und Richtung 1 wurde angelegt an Position (3, 70).
+Domino mit Augen (1, 6) und Richtung 1 wurde angelegt an Position (1, 69).
+Domino mit Augen (6, 2) und Richtung 2 wurde angelegt an Position (1, 71).
+Domino mit Augen (5, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 1 wurde angelegt an Position (6, 70).
+Domino mit Augen (4, 6) und Richtung 3 wurde angelegt an Position (5, 72).
+Domino mit Augen (3, 3) und Richtung 3 wurde angelegt an Position (9, 69).
+Domino mit Augen (6, 4) und Richtung 2 wurde angelegt an Position (6, 73).
+Domino mit Augen (2, 4) und Richtung 1 wurde angelegt an Position (0, 72).
+Domino mit Augen (2, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (2, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 2) und Richtung 2 wurde angelegt an Position (3, 72).
+Domino mit Augen (6, 1) und Richtung 3 wurde angelegt an Position (7, 73).
+Domino mit Augen (4, 1) und Richtung 3 wurde angelegt an Position (3, 74).
+Domino mit Augen (3, 1) und Richtung 1 wurde angelegt an Position (9, 70).
+Domino mit Augen (3, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 1 wurde angelegt an Position (9, 72).
+Domino mit Augen (6, 3) und Richtung 0 wurde angelegt an Position (7, 74).
+Domino mit Augen (5, 4) und Richtung 2 wurde angelegt an Position (1, 74).
+Domino mit Augen (2, 3) und Richtung 3 wurde angelegt an Position (9, 75).
+Domino mit Augen (4, 4) und Richtung 0 wurde angelegt an Position (4, 74).
+Domino mit Augen (1, 4) und Richtung 0 wurde angelegt an Position (2, 75).
+Domino mit Augen (2, 6) und Richtung 3 wurde angelegt an Position (7, 76).
+Domino mit Augen (4, 2) und Richtung 0 wurde angelegt an Position (3, 76).
+Domino mit Augen (2, 1) und Richtung 1 wurde angelegt an Position (5, 76).
+Domino mit Augen (6, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 4) und Richtung 0 wurde angelegt an Position (2, 77).
+Domino mit Augen (1, 1) und Richtung 2 wurde angelegt an Position (1, 77).
+Domino mit Augen (6, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 6) und Richtung 2 wurde angelegt an Position (5, 78).
+Domino mit Augen (2, 1) und Richtung 3 wurde angelegt an Position (0, 79).
+Domino mit Augen (3, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (7, 77).
+Domino mit Augen (3, 6) und Richtung 0 wurde angelegt an Position (3, 79).
+Domino mit Augen (5, 5) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 4) und Richtung 1 wurde angelegt an Position (2, 79).
+Domino mit Augen (5, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 4) und Richtung 0 wurde angelegt an Position (8, 78).
+Domino mit Augen (2, 5) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 3) und Richtung 3 wurde angelegt an Position (8, 71).
+Domino mit Augen (6, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (1, 6) und Richtung 1 wurde angelegt an Position (6, 78).
+Domino mit Augen (1, 1) und Richtung 3 wurde angelegt an Position (4, 58).
+Domino mit Augen (6, 6) und Richtung 0 wurde angelegt an Position (4, 80).
+Domino mit Augen (6, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (1, 1) und Richtung 2 wurde angelegt an Position (1, 76).
+Domino mit Augen (3, 2) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 2) und Richtung 2 wurde angelegt an Position (1, 80).
+Domino mit Augen (1, 3) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (1, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (6, 6) und Richtung 2 wurde angelegt an Position (7, 80).
+Domino mit Augen (4, 4) und Richtung 0 wurde angelegt an Position (8, 79).
+Domino mit Augen (4, 6) und Richtung 2 wurde angelegt an Position (8, 81).
+Domino mit Augen (1, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 4) und Richtung 2 wurde angelegt an Position (3, 81).
+Domino mit Augen (6, 6) und Richtung 2 wurde angelegt an Position (6, 81).
+Domino mit Augen (5, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 3) und Richtung 2 wurde angelegt an Position (2, 82).
+Domino mit Augen (3, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 6) und Richtung 0 wurde angelegt an Position (4, 82).
+Domino mit Augen (5, 6) und Richtung 2 wurde angelegt an Position (4, 83).
+Domino mit Augen (1, 1) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 2 wurde angelegt an Position (1, 83).
+Domino mit Augen (2, 6) und Richtung 3 wurde angelegt an Position (6, 76).
+Domino mit Augen (5, 1) und Richtung 1 wurde angelegt an Position (0, 84).
+Domino mit Augen (2, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 0 wurde angelegt an Position (8, 82).
+Domino mit Augen (1, 3) und Richtung 1 wurde angelegt an Position (1, 85).
+Domino mit Augen (5, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (4, 3) und Richtung 0 wurde angelegt an Position (0, 87).
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (7, 83).
+Domino mit Augen (1, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (1, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 0 wurde angelegt an Position (6, 84).
+Domino mit Augen (5, 2) und Richtung 1 wurde angelegt an Position (4, 84).
+Domino mit Augen (2, 4) und Richtung 2 wurde angelegt an Position (4, 86).
+Domino mit Augen (2, 2) und Richtung 0 wurde angelegt an Position (7, 85).
+Domino mit Augen (6, 1) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 3) und Richtung 2 wurde angelegt an Position (2, 88).
+Domino mit Augen (4, 1) und Richtung 1 wurde angelegt an Position (2, 84).
+Domino mit Augen (6, 2) und Richtung 2 wurde angelegt an Position (6, 86).
+Domino mit Augen (1, 1) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 6) und Richtung 0 wurde angelegt an Position (8, 86).
+Domino mit Augen (6, 5) und Richtung 0 wurde angelegt an Position (6, 87).
+Domino mit Augen (2, 1) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (2, 4) und Richtung 2 wurde angelegt an Position (4, 87).
+Domino mit Augen (5, 4) und Richtung 0 wurde angelegt an Position (7, 88).
+Domino mit Augen (3, 6) und Richtung 2 wurde angelegt an Position (1, 89).
+Domino mit Augen (3, 4) und Richtung 3 wurde angelegt an Position (9, 89).
+Domino mit Augen (3, 5) und Richtung 2 wurde angelegt an Position (9, 90).
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (7, 89).
+Domino mit Augen (5, 4) und Richtung 1 wurde angelegt an Position (6, 90).
+Domino mit Augen (2, 4) und Richtung 2 wurde angelegt an Position (7, 92).
+Domino mit Augen (6, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (2, 3) und Richtung 1 wurde angelegt an Position (4, 88).
+Domino mit Augen (3, 4) und Richtung 1 wurde angelegt an Position (2, 89).
+Domino mit Augen (1, 4) und Richtung 3 wurde angelegt an Position (3, 91).
+Domino mit Augen (6, 5) und Richtung 1 wurde angelegt an Position (0, 90).
+Domino mit Augen (1, 4) und Richtung 3 wurde angelegt an Position (5, 93).
+Domino mit Augen (1, 2) und Richtung 3 wurde angelegt an Position (8, 93).
+Domino mit Augen (6, 1) und Richtung 0 wurde angelegt an Position (2, 92).
+Domino mit Augen (3, 5) und Richtung 3 wurde angelegt an Position (0, 93).
+Domino mit Augen (5, 3) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 2 wurde angelegt an Position (6, 94).
+Domino mit Augen (5, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 4) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (5, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 1 wurde angelegt an Position (5, 89).
+Domino mit Augen (6, 6) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (6, 6) und Richtung 1 wurde angelegt an Position (2, 93).
+Domino mit Augen (3, 2) und Richtung 1 wurde angelegt an Position (9, 91).
+Domino mit Augen (3, 1) und Richtung 1 wurde angelegt an Position (0, 94).
+Domino mit Augen (3, 4) und Richtung 0 wurde angelegt an Position (6, 95).
+Domino mit Augen (4, 2) und Richtung 1 wurde angelegt an Position (8, 95).
+Domino mit Augen (3, 5) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (5, 1) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 4) und Richtung 2 wurde angelegt an Position (6, 96).
+Domino mit Augen (5, 3) und Richtung 3 wurde angelegt an Position (6, 98).
+Domino mit Augen (2, 5) und Richtung 1 wurde angelegt an Position (9, 96).
+Domino mit Augen (6, 5) und Richtung 2 wurde angelegt an Position (8, 98).
+Domino mit Augen (2, 4) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 4) und Richtung 1 wurde angelegt an Position (4, 95).
+Domino mit Augen (5, 5) und Richtung 1 wurde angelegt an Position (5, 98).
+Domino mit Augen (2, 4) und Richtung 0 wurde angelegt an Position (2, 96).
+Domino mit Augen (3, 6) und Richtung 2 wurde angelegt an Position (9, 99).
+Domino mit Augen (6, 4) und Richtung 1 wurde angelegt an Position (3, 94).
+Domino mit Augen (2, 1) und Richtung 1 wurde angelegt an Position (1, 96).
+Domino mit Augen (1, 3) und Richtung 3 wurde angelegt an Position (9, 101).
+Domino mit Augen (4, 2) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 5) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (5, 3) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 0 konnte nicht angelegt werden.
+Domino mit Augen (4, 1) und Richtung 0 wurde angelegt an Position (0, 98).
+Domino mit Augen (6, 4) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (3, 6) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (6, 2) und Richtung 3 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 3 wurde angelegt an Position (2, 99).
+Domino mit Augen (6, 5) und Richtung 2 wurde angelegt an Position (6, 100).
+Domino mit Augen (6, 1) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (3, 1) und Richtung 3 wurde angelegt an Position (3, 99).
+Domino mit Augen (1, 5) und Richtung 3 wurde angelegt an Position (4, 101).

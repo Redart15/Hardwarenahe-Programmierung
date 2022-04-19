@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Übung 1</title>
+<style>
+body {
+    margin: 30px auto;
+    max-width: 600px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 0 40px 0 40px;
+}
+h2 {
+    margin: 60px 0 20px 0;
+}
+.table-header-row {
+    border-bottom: 2px solid black;
+}
+.table-footer-row {
+    border-top: 2px solid black;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.monospace {
+    font-family: monospace;
+}
+code {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.code {
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    white-space: nowrap;
+    border-radius: 5px;
+    font-size: 11px;
+}
+.green {
+    color: #32a852;
+}
+.red {
+    color: #ff0000;
+}
+.orange {
+    color: #fa9e0c;
+}
+.overflow {
+    margin: 15px;
+    display: flex;
+    /*justify-content: center;*/
+}
+</style>
+</head>
+<body>
+<h1 class="center">Übung 1</h1>
+<h2 class="center">Zusammenfassung</h2>
+<table>
+<tr class="table-header-row"><th class="left">Aufgabe</th><th class="right">Bestanden</th></tr>
+<tr><td style="font-family:monospace">04_simple_string_test_3</td><td class="right orange"><b>Knapp (✓) 😐</b></td>
+<tr><td style="font-family:monospace">05_brot</td><td class="right green"><b>Ja ✓ 😄</b></td>
+<tr class="table-footer-row"><td><b>Summe</b></td><td class="right"><b>2 / 2</b></td></tr>
+
+</table>
+<h2>Aufgabe 04_simple_string_test_3</h2>
+<div><b>Bestanden: <span class="orange">Knapp (✓) 😐</span></b></div>
+<h3>Anmerkungen</h3>
+<div>Lesen Sie sich nochmals das im Lernmodul verlinkte Kapitel zu Strings aus dem Buch &quot;C von A bis Z&quot; durch, um zu verstehen, was ein Nullterminator ist.</div>
+<div><a href="https://openbook.rheinwerk-verlag.de/c_von_a_bis_z/011_c_arrays_011.htm">https://openbook.rheinwerk-verlag.de/c_von_a_bis_z/011_c_arrays_011.htm</a></div>
+<div>Wenn kein Nullterminator gesetzt wird, dann kann das zu zufälligem Verhalten des Programms führen, zum Beispiel wenn uninitialisierter Speicher nach dem Ende des Strings ausgegeben wird.</div>
+<div>Siehe auch <a href="https://en.wikipedia.org/wiki/Undefined_behavior#Risks">Undefined Behavior</a>, was häufig die Ursache von schwerwiegenden Sicherheitslücken in Programmen ist.</div>
+<h2>Aufgabe 05_brot</h2>
+<div><b>Bestanden: <span class="green">Ja ✓ 😄</span></b></div>
+<div>Die Tests für diese Aufgabe liefen fehlerfrei durch.<br></div>
+<div>Auf der Standardausgabe wurde folgender Text ausgegeben:<br></div>
+<div> <div class="overflow"><div class="code">OK: Ausgabe entspricht erwarteter Ausgabe.</div></div></div>
+<div></div></body>
+</html>
+

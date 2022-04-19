@@ -1,0 +1,5 @@
+Domino mit Augen (6, 6) und Richtung 1 wurde angelegt an Position (0, 0).
+Domino mit Augen (6, 1) und Richtung 1 wurde angelegt an Position (1, 1).
+Domino mit Augen (3, 3) und Richtung 2 konnte nicht angelegt werden.
+Domino mit Augen (5, 2) und Richtung 1 konnte nicht angelegt werden.
+Domino mit Augen (4, 6) und Richtung 1 wurde angelegt an Position (2, 0).

@@ -1,0 +1,9 @@
+set history save on 
+set history filename nudge1.txt
+break 60
+ignore 1 5
+run
+set zahlen[0]=1
+clear
+c
+quit

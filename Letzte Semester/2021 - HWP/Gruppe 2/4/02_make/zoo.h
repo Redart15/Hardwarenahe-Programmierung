@@ -1,0 +1,2 @@
+void zoo(void);
+

@@ -1,0 +1,17 @@
+texteditor.c:81:16: runtime error: null pointer passed as argument 1, which is declared to never be null
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==7290==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x7f24d6d78675 bp 0x7ffe96423870 sp 0x7ffe96422fe8 T0)
+==7290==The signal is caused by a READ memory access.
+==7290==Hint: address points to the zero page.
+    #0 0x7f24d6d78674  (/lib/x86_64-linux-gnu/libc.so.6+0x18b674)
+    #1 0x7f24d77b38fb  (/lib/x86_64-linux-gnu/libasan.so.5+0x678fb)
+    #2 0x55cc66b961b9 in inbetween /home/student/Desktop/workspace/workspace/Gruppe 2/uebung3/01_texteditor2/texteditor.c:81
+    #3 0x55cc66b95e56 in run_theparameter /home/student/Desktop/workspace/workspace/Gruppe 2/uebung3/01_texteditor2/texteditor.c:68
+    #4 0x55cc66b95a3c in main /home/student/Desktop/workspace/workspace/Gruppe 2/uebung3/01_texteditor2/texteditor.c:42
+    #5 0x7f24d6c140b2 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b2)
+    #6 0x55cc66b953cd in _start (/home/student/Schreibtisch/workspace/Gruppe 2/uebung3/01_texteditor2/texteditor+0x33cd)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (/lib/x86_64-linux-gnu/libc.so.6+0x18b674) 
+==7290==ABORTING

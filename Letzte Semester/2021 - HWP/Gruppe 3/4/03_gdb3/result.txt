@@ -1,0 +1,26 @@
+Das Spiel beginnt!
+Runde 1: 8 9 8 
+Runde 2: 3 5 8 
+Runde 3: 4 4 6 
+Runde 4: 4 5 5 
+Runde 5: 6 7 1 
+Runde 6: 3 3 3 
+Gewonnen! Du kriegst 1000€!
+Runde 7: 4 6 3 
+Runde 8: 4 5 3 
+Runde 9: 5 2 5 
+Runde 10: 3 3 2 
+Runde 11: 2 5 3 
+Runde 12: 4 3 4 
+Runde 13: 5 4 4 
+Runde 14: 2 3 2 
+Runde 15: 3 4 2 
+Runde 16: 2 3 2 
+Runde 17: 5 2 3 
+Runde 18: 2 4 3 
+Runde 19: 2 3 3 
+Runde 20: 2 4 1 
+Runde 21: 7 1 5 
+Runde 22: 1 4 4 
+Runde 23: 3 4 3 
+Runde 24: 4 1 2 

@@ -1,0 +1,32 @@
+0
+
+ Z
+S
+#G
+^^^
+1
+
+ Z
+ 
+#S
+^^^
+2
+
+ Z
+ 
+# 
+^^S
+Leider verloren. Das Level wird neu gestartet.
+0
+
+ Z
+S
+#G
+^^^
+1
+
+ S
+ 
+#G
+^^^
+Gewonnen! Punktzahl: 0

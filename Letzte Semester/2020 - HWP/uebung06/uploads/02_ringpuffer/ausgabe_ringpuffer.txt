@@ -1,0 +1,31 @@
+*******************************************************
+Puffer der Größe 2 erstellt und einen String eingefügt.
+*******************************************************
+Der Puffer hat Größe 2
+Alle Strings im Puffer:
+    Guten Tag
+*******************************************************
+Füge >Welt< hinzu.
+*******************************************************
+Der Puffer hat Größe 2
+Alle Strings im Puffer:
+    Welt
+    Guten Tag
+*******************************************************
+Füge >Hallo< hinzu.
+*******************************************************
+Überschreiben
+Der Puffer hat Größe 2
+Alle Strings im Puffer:
+    Hallo
+    Welt
+*******************************************************
+Entferne >Hallo<.
+*******************************************************
+Der Puffer hat Größe 2
+Alle Strings im Puffer:
+    Welt
+*******************************************************
+Gebe Puffer frei.
+*******************************************************
+Der Puffer existiert nicht.
