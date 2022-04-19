@@ -1,5 +1,5 @@
 
-## HWP - 2020/2021
+# HWP - 2020/2021
 
 Dies ist eine Sammlung aus Modul Hardwarenahenprogrammierung aus den letzten zwei Semester.<br>
 Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den letzten Semestern.<br>
@@ -36,12 +36,14 @@ Redart15 | Artem#9910
     2. HWP 2021
 6. Vorlesung
 
-### 1.Cheat Sheet
-#### CBD - C Debugger
+----
+
+## 1.Cheat Sheet
+### CBD - C Debugger
 In der vierten Woche wurde sich mit Debugging von C beschäftigt, dazu wurde eine Einführung in GDB gemacht.<br>
 Im Grunde reicht es sich nur etwas sich damit auszukennen um das Blatt dieser Woche bearbeiten zu können
 
-#### Struct/Enum/Filepointer
+### Struct/Enum/Filepointer
 Im fünten und sechsten Blatt werden diese Konzepte erläuter und erklärt.<br>
 Die sechste Übung in 2021 hat sich mit dem Projekt überschnitten.<br>
 
@@ -60,22 +62,22 @@ jedoch kann es sein das man es im Projekt benutzt.
 Filepointer, ohne jetzt groß zu erklären diese Werden benutzt um eine Datei auszulesen.
 
 
-#### Terminal Navigation
+### Terminal Navigation
 Nochmal alles was man benötigen könnte für das Bedienen des Terminals.
 
 
-#### Compilerfehler
+### Compilerfehler
 Comipilerfehler sind tückisch in C. Hier findet man eine zusammenfassung der typische Fehler.<br>
 Sollte man hier nicht weiter kommen soll man sich in Discord oder bei Tutor melden,<br>
 denn Kompiliert die Datei nicht wird sie es garnicht getestet.
 
-#### Printf
+### Printf
 Ein Überblick, wie man Text richtig mit printf Formatiert. Wichtig dies schnell nachschlagen zu können, denn printf wird in soziehmlich jeder Aufgabe verwendet.
 
-#### Unitest & Co.
+### Unitest & Co.
 Unitest werden nur ganz kurz angeschnitten. Dies ist eine Zusammenfassung wie ein Unitest zusammengebastelt wird und ausgeführt.
 Desweiteren wird GDB hier nochmal aufgegriffen.
 
 ----
 
-### 2.Extras
+## 2.Extras
