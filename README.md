@@ -15,5 +15,6 @@ Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den le
 Sollte etwas Fehlen, etwas hinzugefügt oder man hilfe mit HWP brauche kann man mich über Discord erreichen:<br>
 Redart15 | Artem#9910
 
+{toc:}
 ### Inhaltsverzeichniss:
 
