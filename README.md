@@ -76,3 +76,8 @@ Desweiteren wird GDB hier nochmal aufgegriffen.
 
 ### Ergänzendes Literatur & Manual
 Im Grunde sind hier viele Datei einfach Wiederhollung. Wenn man auslässt ist nicht die Welt
+
+----
+
+### 3.Letzte Semester
+HWP in 2021 fand innerhalb von 3 Woche statt. Die ersten zwei Wochen erarbeitet man sich das Material und bearbeitet die Übungen 1-6. In der dritten Woche findet das Projekt statt. Blatt 6 hat sich in 
