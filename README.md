@@ -18,7 +18,7 @@ Redart15 | Artem#9910
 ----
 
 **Inhalt in Detail**
+{:.no_toc}
 
-[TOCM]
-
-[TOC]
+- TOC
+{:toc}
