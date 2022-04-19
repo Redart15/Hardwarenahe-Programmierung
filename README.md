@@ -19,8 +19,8 @@ Redart15 | Artem#9910
 
 ### Inhaltsverzeichniss:
 1. Cheat Sheets
-    + GDB Cheat Sheet
-    + Struct.Enum.Filepointer
+    1. GDB Cheat Sheet
+    2. Struct.Enum.Filepointer
     3. Terminal Nav.
     4. Compiler
     5. Printf
@@ -55,3 +55,20 @@ Enums sind im Grunde in der Praktikum nur benutzt worden um was umzubennen. In d
 jedoch kann es sein das man es im Projekt benutzt.
 
 Filepointer, ohne jetzt groß zu erklären diese Werden benutzt um eine Datei auszulesen.
+
+#### Terminal Navigation
+Nochmal alles was man benötigen könnte für das Bedienen des Terminals.
+
+#### Compilerfehler
+Comipilerfehler sind tückisch in C. Hier findet man eine zusammenfassung der typische Fehler.<br>
+Sollte man hier nicht weiter kommen soll man sich in Discord oder bei Tutor melden,<br>
+denn Kompiliert die Datei nicht wird sie es garnicht getestet.
+
+#### Printf
+Ein Überblick, wie man Text richtig mit printf Formatiert. Wichtig dies schnell nachschlagen zu können, denn printf wird in soziehmlich jeder Aufgabe verwendet.
+
+#### Unitest & Co.
+Unitest werden nur ganz kurz angeschnitten. Dies ist eine Zusammenfassung wie ein Unitest zusammengebastelt wird und ausgeführt.
+Desweiteren wird GDB hier nochmal aufgegriffen.
+
+### 2.Extras
