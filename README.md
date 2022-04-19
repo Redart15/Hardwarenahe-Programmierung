@@ -35,12 +35,11 @@ Redart15 | Artem#9910
     1. HWP 2020
     2. HWP 2021
 6. Vorlesung
-----
+
 ### 1.Cheat Sheet
 #### CBD - C Debugger
 In der vierten Woche wurde sich mit Debugging von C beschäftigt, dazu wurde eine Einführung in GDB gemacht.<br>
 Im Grunde reicht es sich nur etwas sich damit auszukennen um das Blatt dieser Woche bearbeiten zu können
-----
 
 #### Struct/Enum/Filepointer
 Im fünten und sechsten Blatt werden diese Konzepte erläuter und erklärt.<br>
@@ -76,5 +75,7 @@ Ein Überblick, wie man Text richtig mit printf Formatiert. Wichtig dies schnell
 #### Unitest & Co.
 Unitest werden nur ganz kurz angeschnitten. Dies ist eine Zusammenfassung wie ein Unitest zusammengebastelt wird und ausgeführt.
 Desweiteren wird GDB hier nochmal aufgegriffen.
+
+----
 
 ### 2.Extras
