@@ -93,13 +93,13 @@ dir - Bearbeitete Aufgaben<br>
 .c  - Source Code<br>
 .h  - Headerfile(WICHTIG)<br>
 .sh - Test-Scripts - Tests<br>
-.o  - Obeject File - Vorkompelierter File<br>
-ohne Endung - Mashine Code - Compilierte C Dateien<br>
+.o  - Obeject File - Vorkompelierter Code<br>
+ohne Endung - Mashine Code - Executable-Unix C<br>
 Die File Struktur sollte soweit Sinn machen.<br>
 
 #### 2020
 xVorlage - Gruppe ? - ? ?<br>
-meine Tim hatte es von einem kumple gekriegt.<br>
+meine Tim hatte es von einem Kumple gekriegt.<br>
 
 #### 2021
 Es gab 3 Gruppen uns Fehlt Gruppe 1, wenn ich Zeit finde holl ich mir den Teil von der Katy ab.<br>
