@@ -10,11 +10,16 @@ Die Sammlung dient dazu einen auf das Modul vorzubereiten mit Aufgabe aus den le
 - Aufgabe mit Test und Lösung
 - Vorlesung (Buch Kapitel 1-6)
 
+Vorab kurzer Ablauf des Praktikum 2021:
+Es kann sein das es diese Jahr anders ist aber wenn nicht hier eine Zusammenfassung von 2021
+
+Zuerst musste man eine Test bestehen bevor man in Ilias eingeladen wurde. Stoff muss sich eingeständig angeeignet werden. Hierzu zieht man sich das Buch, Ilias und Videos von Janine hinzu. 2-3 Tage Anstand kommt ein neues Arbeitsblatt raus. In der Datei Termine kann man einen Beispielablauf sehen. Die Arbeitsblatt enthält Aufgabe, Test und Vorlagen. Test dürfen nicht verändert werde. Eine Aufgabe gilt nur dann als bestanden wenn der Test zu 100% abläuft. 11/15 werden benötigt um am Projekt teilzunehmen. Blatt 6 und das Projekt überschneiden sich. Der Inhalt von Blatt 5&6 stellen das Fundament des Projkts dar. Nach Abgabe des Projekt muss man das Projekt dem Tutor vorstellen. Das Gespräch ist lediglich um zu sehen ob man es Eingeständig erarbeitet hat.
+Letzlich muss man einen Test zu jedem Thema bestehen. Man kann die Test so oft wie möglich wiederhollen.
+
 **Jeder welcher sich mit dem Fach auseinander setzt wir wärmstens Empfohlen sich wärend des Semester schon mit dem Stoff sich zu beschäftigen!**
 
-Sollte etwas Fehlen, etwas hinzugefügt oder man hilfe mit HWP brauche kann man mich über Discord erreichen:<br>
+Sollte etwas Fehlen, etwas hinzugefügt Fragen oder hilfe mit HWP brauche kann man mich über Discord erreichen:<br>
 Redart15 | Artem#9910
-
 
 
 ### Inhaltsverzeichniss:
@@ -80,17 +85,28 @@ Im Grunde sind hier viele Datei einfach Wiederhollung. Wenn man auslässt ist ni
 ----
 
 ### 3.Letzte Semester
-Kurz wie das Praktikum in 2021 ablief:
-Man musste einen Test bestehen um an dem Praktikum teilnehmen zu können. Der Test bestand aus basis Kenntnissen der Programmierung. Alles in diesem Test wird als gang und gebe angesehen.
+Hier liegen die Datei der letzten 2 Semester.
 
-Zuerst fand alles online Statt mit einem Lernmodule im Illias. Den Stoff musste man sich selber aneignen. Das Lernmodul verwies auf Kapitel im Buch und ging die Konzepte durch. Zu den Konzepten gab es sowohl Übungen wie auch Videos von der Janine. 
-Im Verlauf des Praktikum musste man 11/15 Aufgabe bestanden haben um am Projekt teilnehmen zu können. Darüberhinnaus musste man in Ilias 
+pdf - Aufgabe
+zip - Vorlage
+dir - Bearbeitete Aufgaben
+.c  - Source Code
+.h  - Headerfile(WICHTIG)
+.sh - Test-Scripts - Tests
+.o  - Obeject File - Vorkompelierter File
+ohne Endung - Mashine Code - Compilierte C Dateien
+Die File Struktur sollte soweit Sinn machen.
 
-Alle paar Tage erhielt man ein Arbeitsblatt.<br>
+#### 2020
+xVorlage - Gruppe ? - ? ?
+meine Tim hatte es von einem kumple gekriegt.
 
-Das Arbeitsblatt war eine Zip welche das Aufgabenblatt, die Test und Vorlagen enthielt. Die Test musste man lokal auf den Computer ausführen. Die Test Datei sind dabei Shell-Scripts. Die Test müssen zur 100% durchlaufen damit die Aufgabe als bestanden gilt. 
+### 2021
+Es gab 3 Gruppen uns Fehlt Gruppe 1, wenn ich Zeit finde holl ich mir den Teil von der Katy ab.
 
+FEHLT    - Gruppe 1 - Kate(ChaosAyumi#1474) 
+Complete - Gruppe 2 - Tim Urban
+Complete - Gruppe 3 - Artem Betz
 
-HWP in 2021 fand innerhalb von 3 Woche statt. Die ersten zwei Wochen erarbeitet man sich das Material und bearbeitet die Übungen 1-6. In der dritten Woche findet das Projekt statt. Blatt 6 hat sich mit dem Projekt überschnitten. 
 
 
