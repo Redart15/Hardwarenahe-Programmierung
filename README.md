@@ -19,8 +19,8 @@ Redart15 | Artem#9910
 
 ### Inhaltsverzeichniss:
 1. Cheat Sheets
-    - GDB Cheat Sheet
-    - Struct.Enum.Filepointer
+    + GDB Cheat Sheet
+    + Struct.Enum.Filepointer
     3. Terminal Nav.
     4. Compiler
     5. Printf
