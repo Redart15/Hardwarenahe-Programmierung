@@ -17,10 +17,10 @@ Redart15 | Artem#9910
 
 ### Inhaltsverzeichniss:
 - Cheat Sheets
--  GBD Cheat Sheet
--  Struct.Enum.Filepointer
--  Terminal Nav.
--  Compiler
--  Printf
--  Unitest & Co.
+  - GBD Cheat Sheet
+  - Struct.Enum.Filepointer
+  - Terminal Nav.
+  - Compiler
+  - Printf
+  - Unitest & Co.
 
