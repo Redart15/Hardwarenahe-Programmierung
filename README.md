@@ -73,3 +73,6 @@ Desweiteren wird GDB hier nochmal aufgegriffen.
 ----
 
 ## 2.Extras
+
+### Ergänzendes Literatur & Manual
+Im Grunde sind hier viele Datei einfach Wiederhollung. Wenn man auslässt ist nicht die Welt
