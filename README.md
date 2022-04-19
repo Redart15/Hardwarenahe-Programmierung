@@ -84,29 +84,29 @@ Im Grunde sind hier viele Datei einfach Wiederhollung. Wenn man auslässt ist ni
 
 ----
 
-### 3.Letzte Semester
+## 3.Letzte Semester
 Hier liegen die Datei der letzten 2 Semester.
 
-pdf - Aufgabe
-zip - Vorlage
-dir - Bearbeitete Aufgaben
-.c  - Source Code
-.h  - Headerfile(WICHTIG)
-.sh - Test-Scripts - Tests
-.o  - Obeject File - Vorkompelierter File
-ohne Endung - Mashine Code - Compilierte C Dateien
-Die File Struktur sollte soweit Sinn machen.
+pdf - Aufgabe<br>
+zip - Vorlage<br>
+dir - Bearbeitete Aufgaben<br>
+.c  - Source Code<br>
+.h  - Headerfile(WICHTIG)<br>
+.sh - Test-Scripts - Tests<br>
+.o  - Obeject File - Vorkompelierter Code<br>
+ohne Endung - Mashine Code - Executable-Unix C<br>
+Die File Struktur sollte soweit Sinn machen.<br>
 
 #### 2020
-xVorlage - Gruppe ? - ? ?
-meine Tim hatte es von einem kumple gekriegt.
+xVorlage - Gruppe ? - ? ?<br>
+meine Tim hatte es von einem Kumple gekriegt.<br>
 
 #### 2021
-Es gab 3 Gruppen uns Fehlt Gruppe 1, wenn ich Zeit finde holl ich mir den Teil von der Katy ab.
+Es gab 3 Gruppen uns Fehlt Gruppe 1, wenn ich Zeit finde holl ich mir den Teil von der Katy ab.<br>
 
-FEHLT    - Gruppe 1 - Kate(ChaosAyumi#1474) 
-Complete - Gruppe 2 - Tim Urban
-Complete - Gruppe 3 - Artem Betz
+FEHLT    - Gruppe 1 - Kate(ChaosAyumi#1474) <br>
+Complete - Gruppe 2 - Tim Urban<br>
+Complete - Gruppe 3 - Artem Betz<br>
 
 
 
