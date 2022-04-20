@@ -108,5 +108,9 @@ FEHLT    - Gruppe 1 - Kate(ChaosAyumi#1474) <br>
 Complete - Gruppe 2 - Tim Urban<br>
 Complete - Gruppe 3 - Artem Betz<br>
 
+----
+
+#### 4 Vorlesung
+Siehe dazu im Discord.
 
 
